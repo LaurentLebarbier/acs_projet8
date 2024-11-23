@@ -1,0 +1,60 @@
+/* Contient le css pour tout le responsive */
+
+
+@media screen and (max-width: 700px) {
+
+
+    .bulle1, .bulle2, .bulle3, .bulle4 {
+        width: 120px;
+        height: 120px;
+    }
+    .content{
+        width: 120px;
+        height: 120px;
+        font-size: 25px;
+    }
+    
+    }
+
+@media screen and (max-width: 500px) {
+
+
+    .bulle1, .bulle2, .bulle3, .bulle4 {
+        width: 90px;
+        height: 90px;
+    }
+    .content{
+        width: 90px;
+        height: 90px;
+        font-size: 15px;
+    }
+    .bulles .content:hover .text {
+        opacity:1;
+        transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+        }
+    .img_view img{
+        width:100%;
+        height: auto;
+    }
+    .construct img{
+        height:320px;
+        width:320px;
+    }
+    }
+    
+@media screen and (max-width: 400px) {
+
+
+.bulle1, .bulle2, .bulle3, .bulle4 {
+    width: 60px;
+    height: 60px;
+}
+.content{
+    width: 60px;
+    height: 60px;
+
+}
+
+
+}
